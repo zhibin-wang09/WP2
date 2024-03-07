@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "16.14.0",
+  "description": "script to handle request",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "express-session": "^1.18.0",
+    "jimp": "^0.22.12",
+    "mongodb": "6.3",
+    "nodemailer": "^6.9.11",
+    "nodemon": "^3.1.0",
+    "random-key": "^0.3.2"
+  }
+}
